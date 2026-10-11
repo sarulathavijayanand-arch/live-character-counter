@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Live Character Counter</h1>
+        <p>Write your message below</p>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="6"
+            maxlength="200"
+            placeholder="Start typing here..."></textarea>
+
+        <p id="counter">0 / 200 characters</p>
+        <p id="remaining">200 characters remaining</p>
+        <p id="warning"></p>
+    </div>
+
+</body>
+</html>
